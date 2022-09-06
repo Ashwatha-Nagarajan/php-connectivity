@@ -1,11 +1,10 @@
 <?php
-$servername = "localhost";
+$servername = "terraform-20220905160330504500000001.cq174vfsoqja.us-east-1.rds.amazonaws.com";
 $username = "username";
 $password = "password";
-$database = "database";
 
 // Create connection
-$conn = mysqli_connect($servername, $username, $password, $database);
+$conn = mysqli_connect($servername, $username, $password);
 
 // Check connection
 if (!$conn) {
